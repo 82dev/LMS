@@ -1,6 +1,6 @@
-     		   -> Check Database(Admin)  -> See Database and have Options: Delete, and View Rented
-Start -> Login -> Rent                   -> See Database and have Options: Rent, and (?Search, Filter?) -> Main Page
-               -> Donate                 -> Fill Details
+     		          -> Check Database(Admin)  -> See Database and have Options: Delete, and View Rented
+Start -> Login/Create -> Rent                   -> See Database and have Options: Rent, and (?Search, Filter?) -> Main Page
+                      -> Donate                 -> Fill Details
 
 =======================================================================================================================
 Book Details: Title, Author(s), Edition, Year, Publisher, ISBN, Genre(Optional)
