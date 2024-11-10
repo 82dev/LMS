@@ -1,9 +1,7 @@
-     		          -> Check Database(Admin)  -> See Database and have Options: Delete, and View Rented
-Start -> Login/Create -> Rent                   -> See Database and have Options: Rent, and (?Search, Filter?) -> Main Page
-                      -> Donate                 -> Fill Details
-
+Start -> See Books
+      -> Add Books
 =======================================================================================================================
-Book Details: Title, Author(s), Edition, Year, Publisher, ISBN, Genre(Optional)
+Book Details: Title, Author, Year, BookID
 =======================================================================================================================
 Colors: gruvbox_dark
 =======================================================================================================================
