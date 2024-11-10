@@ -109,7 +109,7 @@ def addBooksWin(con, cursor):
 
 def main():
     # IMPORTANT: Change the user and passwd (and\or collation if problems) vvv
-    con = sqltor.connect(host="localhost", user="3curtain", passwd="3curtain", database="Osoi", collation='utf8mb4_general_ci')
+    con = sqltor.connect(host="localhost", user="root", passwd="12345", database="Osoi", collation='utf8mb4_general_ci')
     if not con.is_connected():
         print('Error in Connection')
         return
