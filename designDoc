@@ -1,5 +1,21 @@
-Start -> See Books
-      -> Add Books
+#1
+Start
+  : Login -> (jmpif admin #2; jmp #3)
+  : Register -> #1
+
+#2
+  : Add book
+  : Remove book
+  : View books
+  : View users
+      -> #2
+
+#3
+  : View books
+  : Issue book
+  : Return book
+      -> #3
+
 =======================================================================================================================
 Book Details: Title, Author, Year, BookID
 =======================================================================================================================
