@@ -1,13 +1,13 @@
 #1
 Start
-  : Login -> (jmpif admin #2; jmp #3)
-  : Register -> #1
+  :[x]Login -> (jmpif admin #2; jmp #3)
+  :[x]Register -> #1
 
 #2
   : Add book
   : Remove book
   : View books
-  : View users
+#// View users
       -> #2
 
 #3
